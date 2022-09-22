@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './Components/Navbar/navbar';
+import Home from './Pages/Home/Home'
+import About from './Pages/About/About';
+import Contact_us from './Pages/Contact/Contact_us';
+import Gallery from './Pages/Gallery/Gallery';
 import GlobalStyle from './globalstyle';
 import {
   BrowserRouter,
@@ -19,11 +23,11 @@ root.render(
     <BrowserRouter>
       <Routes>
       
-      <Route path="/" element={<Navbar/>}/>
-      <Route path="/home" element={<Navbar/>}/>
-      <Route path="/about" element={<Navbar/>}/>
-      <Route path="/contact" element={<Navbar/>}/>
-      <Route path="/gallery" element={<Navbar/>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/Home" element={<Home/>}/>
+      <Route path="/About" element={<About/>}/>
+      <Route path="/Contact_us" element={<Contact_us/>}/>
+      <Route path="/Gallery" element={<Gallery/>}/>
       
       
       </Routes>
