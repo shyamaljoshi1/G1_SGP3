@@ -23,19 +23,11 @@ root.render(
     <BrowserRouter>
       <Routes>
       
-<<<<<<< HEAD
-      <Route path="/" />
-      <Route path="/home" element={<Navbar/>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<Navbar/>}/>
       <Route path="/contact" element={<Navbar/>}/>
       <Route path="/gallery" element={<Navbar/>}/>
-=======
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Home" element={<Home/>}/>
-      <Route path="/About" element={<About/>}/>
-      <Route path="/Contact_us" element={<Contact_us/>}/>
-      <Route path="/Gallery" element={<Gallery/>}/>
->>>>>>> 90ea9a04bd0900f17fcac7b5c34ed7d90e671977
       
       
       </Routes>

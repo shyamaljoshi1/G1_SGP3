@@ -1,4 +1,6 @@
-* {
-  font-size: 1rem;
-  color: blue;
+.carousel-status {
+  display: none;
+}
+.carousel .thumbs {
+  display: none;
 }/*# sourceMappingURL=hero.css.map */

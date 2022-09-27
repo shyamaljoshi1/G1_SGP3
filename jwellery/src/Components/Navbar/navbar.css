@@ -3,14 +3,13 @@
   flex-direction: row;
   justify-content: space-between;
   text-transform: uppercase;
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: #FFF9F4;
 }
 .Nav__container__1, .Nav__container__3 {
   display: flex;
   flex-direction: row;
-  padding-right: 10rem;
-  width: 78rem !important;
+  width: 24rem;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -26,14 +25,18 @@
   padding: 1rem;
   transform: translateY(-0.5rem);
 }
+.Nav__container__1 {
+  padding-left: 20rem;
+}
 .Nav__container__2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: 3rem;
   cursor: pointer;
-  padding-left: 10rem;
+  padding-left: 30rem;
 }
 .Nav__container__3 {
-  width: 38rem;
+  width: 50rem !important;
+  padding-right: 10rem;
 }/*# sourceMappingURL=navbar.css.map */
