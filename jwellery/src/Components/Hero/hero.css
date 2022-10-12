@@ -3,4 +3,7 @@
 }
 .carousel .thumbs {
   display: none;
+}
+.carousel .thumbs-wrapper {
+  margin: 0 !important;
 }/*# sourceMappingURL=hero.css.map */

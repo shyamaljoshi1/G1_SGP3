@@ -1,5 +1,47 @@
-* {
-    font-size: 1rem;
+.rate_container{
+    background-color: #0E333D;
+    color: #C3CCCF;
+    h1{
+        text-align: center;
+        font-size: 4rem;
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .6rem;
+        
+    }
+    h3{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .6rem;
+        padding-bottom: 1rem;
+    }
+}
 
-    color: blue;
+.rate{
+    padding-top: 4rem;
+    h6{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .6rem;
+    }
+    .offer{
+        text-align: center;
+        font-size: 2rem;
+        padding: 4rem;
+        font-weight: 400;
+        font-style: italic;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .8rem;
+        text-shadow: 1rem .5rem 1.5rem #C3CCCF ;
+        padding-bottom: 10rem;
+    }
 }
