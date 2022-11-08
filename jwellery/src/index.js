@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import AboutUs from './Pages/About/About';
 import Footer from './Components/Footer/footer';
+import GoldRate from './Components/Gold_rate/gold_rate';
 
 
 
@@ -30,7 +31,8 @@ root.render(
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<AboutUs/> }/>
       <Route path="/contact" element={<ContactUs/>}/>
-      <Route path="/gallery" element={<Navbar/>}/>
+      <Route path="/gallery" element={<Gallery/> }/>
+      <Route path="/rates" element={<GoldRate/> }/>
       
       
       </Routes>
