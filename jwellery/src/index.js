@@ -11,6 +11,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import AboutUs from './Pages/About/About';
 
 
 
@@ -19,13 +20,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GlobalStyle/>
-    <Navbar/>
+    
     <BrowserRouter>
+    <Navbar/>
       <Routes>
       
       <Route path="/" element={<Home/>}/>
       <Route path="/home" element={<Home/>}/>
-      <Route path="/about" element={<Navbar/>}/>
+      <Route path="/about" element={<AboutUs/> }/>
       <Route path="/contact" element={<Navbar/>}/>
       <Route path="/gallery" element={<Navbar/>}/>
       

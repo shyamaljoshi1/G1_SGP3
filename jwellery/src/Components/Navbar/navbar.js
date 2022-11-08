@@ -1,15 +1,26 @@
 import React from 'react';
 import './navbar.css';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  function handleClickAbout() {
+    navigate("/about");
+  }
+  function handleClickHome() {
+    navigate("/home");
+  }
+
   return (
     <div className="Nav__container">
       <div className="Nav__container__1">
-        <h6>
+        <h6 onClick={() => { handleClickHome() }}>
           home
         </h6>
-        <h6>
+        <h6 onClick={() => { handleClickAbout() }}>
           about
         </h6>
       </div>
