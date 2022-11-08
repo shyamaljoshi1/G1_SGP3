@@ -11,6 +11,9 @@ const Navbar = () => {
   function handleClickHome() {
     navigate("/home");
   }
+  function handleClickContact() {
+    navigate("/contact");
+  }
 
   return (
     <div className="Nav__container">
@@ -36,7 +39,10 @@ const Navbar = () => {
       <div className="Nav__container__3">
         <h6>Gallery</h6>
         <h6>Rate</h6>
-        <h6>Contact us</h6>
+        <h6
+        onClick={() => {
+            handleClickContact();
+          }}>Contact us</h6>
       </div>
     </div>
   );

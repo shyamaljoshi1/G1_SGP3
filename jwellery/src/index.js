@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Navbar from './Components/Navbar/navbar';
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About';
-import Contact_us from './Pages/Contact/Contact_us';
+import ContactUs from './Pages/Contact/Contact_us';
 import Gallery from './Pages/Gallery/Gallery';
 import GlobalStyle from './globalstyle';
 import {
@@ -29,7 +29,7 @@ root.render(
       <Route path="/" element={<Home/>}/>
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<AboutUs/> }/>
-      <Route path="/contact" element={<Navbar/>}/>
+      <Route path="/contact" element={<ContactUs/>}/>
       <Route path="/gallery" element={<Navbar/>}/>
       
       
