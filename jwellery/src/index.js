@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom";
 import AboutUs from './Pages/About/About';
+import Footer from './Components/Footer/footer';
 
 
 
@@ -33,6 +34,7 @@ root.render(
       
       
       </Routes>
+    <Footer/>
     </BrowserRouter>
     
   </React.StrictMode>
