@@ -12,44 +12,44 @@ const Footer = () => {
         style={{ width: "90%" }}
       >
         <CDBBox display="flex" justifyContent="between" className="flex-wrap">
-          <CDBBox style={{ padding: "0 24.4rem" }}>
-            <a href="/" style={{ padding: "0", margin: "0" }}>
-              <h1> J BABUBHAI </h1>
+          <CDBBox style={{ padding: "5rem 11rem",fontSize:"1.7rem"}}>
+            <a href="/" style={{ padding: "0", margin: "0",textDecoration:"none",color:"#0E333D",letterSpacing:".8rem" }}>
+              <h1 style={{fontSize:"4rem"}}> J BABUBHAI </h1>
               {/* <span className="ml-3 h5 font-weight-bold">  Resolute Consultants</span> */}
             </a>
-            <p className="my-3" style={{ width: "250px" }}>
-              Resolute Consultant is an Architecture and Engineering consultancy
-              firm established in 2017.
+            <p className="my-3" style={{ width: "40rem" ,letterSpacing:".2rem" ,color:"#0E333D"}}>
+            Gujarat’s top 10 achiever of Hallmark licence for providing assured quality gold. We offers best craftsmanship on customized /ordered ornaments for 99.99% customer’s satisfaction.
             </p>
             <CDBBox display="flex" className="mt-4">
               <CDBBtn
                 flat
-                href="https://www.youtube.com/watch?v=WwECTqK6oY4&t=600s"
+                href="https://www.facebook.com/J.BabubhaiJewellers/"
                 color="dark"
                 target="_blank"
+                style={{fontSize:"2rem",textDecoration:"none"}}
               >
                 <CDBIcon fab icon="facebook-f" />
               </CDBBtn>
-              <CDBBtn flat color="dark" className="mx-3">
+              <CDBBtn flat style={{fontSize:"2rem",textDecoration:"none"}} href="https://twitter.com/jbabubhaijewel1" color="dark" className="mx-3" target="_blank">
                 <CDBIcon fab icon="twitter" />
               </CDBBtn>
-              <CDBBtn flat color="dark" className="p-2">
+              <CDBBtn flat style={{fontSize:"2rem",textDecoration:"none"}} href="https://www.instagram.com/jbabubhaijewellers/" color="dark" className="p-2" target="_blank">
                 <CDBIcon fab icon="instagram" />
               </CDBBtn>
             </CDBBox>
           </CDBBox>
-          <CDBBox>
+          <CDBBox style={{fontSize:"2rem",paddingTop:"5rem",color:"#0E333D"}}>
             <p
               className="h5 mb-4"
-              style={{ fontWeight: "600", padding: "0 25rem" }}
+              style={{ fontWeight: "600", padding: "0 25rem",fontSize:"2rem" }}
             >
-              Resolute Consultants
+              J Babubhai Jewellers
             </p>
             <CDBBox
               flex="column"
-              style={{ cursor: "pointer", padding: "0 25rem" }}
+              style={{  padding: "0 25rem" }}
             >
-              <CDBFooterLink href="/">Home</CDBFooterLink>
+              
               <CDBFooterLink href="/home">Home</CDBFooterLink>
               <CDBFooterLink href="/about">AboutUs</CDBFooterLink>
               <CDBFooterLink href="/contact">Contact Us</CDBFooterLink>
@@ -57,8 +57,8 @@ const Footer = () => {
             </CDBBox>
           </CDBBox>
         </CDBBox>
-        <small className="text-center mt-5">
-          &copy; Resolute Consultants, 2022. All rights reserved.
+        <small className="text-center mt-5" style={{fontSize:"1.4rem"}}>
+          &copy; JBJ website, 2022. All rights reserved.
         </small>
       </CDBBox>
     </CDBFooter>
